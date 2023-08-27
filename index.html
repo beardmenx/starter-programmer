@@ -14,6 +14,7 @@
   </head>
   <body>
     <div class="container">
+      <!---------------   header  start -------------->
       <header class="header">
         <div class="logo">
           <a class="logo__link" href="#">
@@ -27,10 +28,19 @@
           </a>
         </div>
 
+        <div class="header__notification">
+          <span class="header__notification-counter">0</span>
+          <img src="images/icons/notif.svg" alt="bell-icon" />
+        </div>
+
         <form class="header__form">
           <input class="header__input" type="text" placeholder="Поиск" />
           <button class="header__btn" type="submit">
-            <img class="header__btn-img" src="images/search-icon.svg" alt="" />
+            <img
+              class="header__btn-img"
+              src="images/icons/search-icon.svg"
+              alt=""
+            />
           </button>
         </form>
 
@@ -38,10 +48,101 @@
           <p class="user__name">Vitalii</p>
           <div class="user__avatar"></div>
           <button class="user__btn-dropDownMenu">
-            <img src="images/more.svg" alt="arrow-down" />
+            <img src="images/icons/more.svg" alt="arrow-down" />
           </button>
         </div>
       </header>
+      <!---------------   Haader finish  -------------->
+
+      <!---------------   Main block start  -------------->
+      <main class="main">
+        <!---------------   navigation start  -------------->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/user.svg" alt="" />
+                <p>Моя страница</p>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/news.svg" alt="" />
+                <p>Новости</p>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/message.svg" alt="" />
+                <p>Мессенджер</p>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/friends.svg" alt="" />
+                <p>Друзья</p>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/collaba.svg" alt="" />
+                <p>Коллаборация с другими</p>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/video.svg" alt="" />
+                <p>Видео</p>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/bookmark.svg" alt="" />
+                <p>Закладки</p>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/file.svg" alt="" />
+                <p>Файлы</p>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/advertising.svg" alt="" />
+                <p>Реклама</p>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/control.svg" alt="" />
+                <p>Управление</p>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/problem-bug.svg" alt="" />
+                <p>Ошибки и предложения</p>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="#">
+                <img src="images/icons/github.svg" alt="" />
+                <p>GitHub</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!---------------   navigation end    -------------->
+
+        <section class="center__section">
+          <h3 class="center__section-title">Информация</h3>
+        </section>
+
+        <section class="right-side__section"></section>
+      </main>
+      <!---------------   ???   -------------->
     </div>
     <script src="js/main.js"></script>
   </body>
