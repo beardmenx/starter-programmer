@@ -1,0 +1,134 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --one-main-color: #3c215c;
+  --two-main-color: #a2f37b;
+  --color-text: #19191a;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  color: var(--color-text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  background-color: var(--one-main-color);
+  color: var(--color-text);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: var(--one-main-color);
+  width: 1380px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.header {
+  background-color: var(--two-main-color);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 5px 15px;
+}
+
+.logo__link {
+  display: flex;
+  width: 150px;
+  border: 2px solid var(--one-main-color);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.logo__text {
+  width: 100px;
+  background-color: transparent;
+  color: var(--one-main-color);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.header__form {
+  position: relative;
+  margin: 8px;
+  padding-left: 50px;
+}
+
+.header__input {
+  width: 300px;
+  background-color: var(--one-main-color);
+  padding-left: 45px;
+  height: 45px;
+  border-radius: 8px;
+  color: var(--two-main-color);
+}
+
+.header__input::placeholder {
+  color: var(--two-main-color);
+}
+
+.header__btn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+
+.user {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.user__name {
+  padding-right: 10px;
+}
+
+.user__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--one-main-color);
+}
+
+.user__btn-dropDownMenu {
+  background-color: transparent;
+  border: none;
+}
+
+.user__btn-dropDownMenu img {
+  width: 15px;
+  height: 15px;
+}
